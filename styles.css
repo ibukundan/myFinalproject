@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+
+}
+
+
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .logo{
+    float: left;
+    margin: 10px;
+
+}
+
+.header-right{
+    float: right;
+    margin: 1%;
+    padding: 6px 100px;
+    outline: none;
+}
+
+.header-right a{
+    color: azure;
+    padding: 8px 10px;
+    font: 16px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    margin-right: 10px;
+} 
+
+.hero-text{
+    text-align: centre;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+.hero-text h1{
+    font-size: 45px;
+}
+
+.hero-text p{
+    text-align: center;
+}
+
+.form-control{
+    border: 5px;
+    border-radius: 40px;
+    box-shadow: none;
+}
+
+.main h2{
+    text-align: center;
+    margin-top: 15px ;
+    font-style: italic;
+}
