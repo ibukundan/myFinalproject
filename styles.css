@@ -83,12 +83,9 @@ body{
 .featured-image img{
     width: 100%;
     height: 500px;
-    position: relative;
-    margin top: 10px;
+    margin-top: 10px;
+    position: relative; 
 }
-
-
-
 
 .featured-price{
     width: 60px;
@@ -100,8 +97,9 @@ body{
     font-weight: 600;
     text-align: center;
     position: absolute;
-    left: 290px;
-    top: 225px;
+    right: 20px;
+    top: 200px;
+    z-index: 1;
 } 
 .featured-rating{
     position: absolute;
