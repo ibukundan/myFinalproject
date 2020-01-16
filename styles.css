@@ -34,6 +34,7 @@ body{
     outline: none;
 }
 
+
 .header-right a{
     color: azure;
     padding: 8px 10px;
@@ -42,7 +43,14 @@ body{
     border-radius: 50px;
     background: transparent;
     margin-right: 10px;
+    text-decoration: none;
 } 
+
+.header-right a:hover{
+    background-color: #ff5722;
+    transition-duration: 1s;
+    width: 100px;
+}
 
 .hero-text{
     text-align: center;
@@ -87,6 +95,9 @@ body{
     position: relative; 
 }
 
+.featured-box{
+}
+
 .featured-price{
     width: 60px;
     height: 60px;
@@ -120,4 +131,33 @@ body{
 }
 .featured-details .fa{
     margin-right: 5px;
+}
+.why-us{
+    margin-top : 60px;  
+    text-align: center;
+    font-style: italic;
+}
+
+.why-us .row {
+    margin-top : 60px;
+    margin-bottom: 60px;
+    background-color: #ff5722;
+    padding: 50px 50px;
+}
+    
+    
+}
+.why-us h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #efefef;
+    padding: 50px;
+}
+
+.copyright{
+    text-align: center;
 }
