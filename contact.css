@@ -1,0 +1,16 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.footer{
+    background-color: #efefef;
+    padding: 50px;
+}
+
+.contact-us i .fa{
+    margin:4px ;
+}
+.copyright{
+    text-align: center;
+}

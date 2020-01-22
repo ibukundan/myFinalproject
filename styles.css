@@ -133,15 +133,19 @@ body{
     margin-right: 5px;
 }
 .why-us{
-    margin-top : 60px;  
+    margin-top : 50px;  
     text-align: center;
     font-style: italic;
+}
+
+.why-box .fa{
+    width: 100px;
 }
 
 .why-us .row {
     margin-top : 60px;
     margin-bottom: 60px;
-    background-color: #ff5722;
+    background-color: #ECF0F1;
     padding: 50px 50px;
 }
     
@@ -153,11 +157,42 @@ body{
     font-weight: 600;
 }
 
+.testimonials{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial{
+    background: #fff;
+    padding: 30px;
+}
+
+.testimonial img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
 .footer{
     background-color: #efefef;
     padding: 50px;
 }
 
+.contact-us i .fa{
+    margin:4px ;
+}
 .copyright{
     text-align: center;
 }
